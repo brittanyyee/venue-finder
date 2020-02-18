@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Venue Locator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Venue Map</title>
+     <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        font-family: Oswald;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script  src="./script.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <div id="map"></div>
+    
+    <div class="container">
+      <div class="options-box">
+        <h1>Find a Venue</h1><br><br>
+        <div>
+          <input id="show-listings" type="button" value="Show Prospects">
+          <input id="hide-listings" type="button" value="Hide Prospects">
+          <hr>
+          <span class="text"> Draw a polygon search area to find the closest venues.<br> Tools will appear in the top left corner of the map.</span>
+          <br><br><input id="toggle-drawing"  type="button" value="Drawing Tools">
+        </div>
+        <hr>
+        <div>
+          <hr>
+          <span class="text"> Zoom in on the map or type in a central location to localize keyword search results.</span><br>
+          <input id="zoom-to-area-text" type="text" placeholder="Zoom to location">
+          <input id="zoom-to-area" type="button" value="Zoom">
+        </div>
+        <hr>
+        <div>
+          <span class="text">Query locations by keyword</span><br><br>
+          <input id="places-search" type="text" placeholder="Ex: venue, restaurant, etc">
+          <input id="go-places" type="button" value="Find">
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_65,w_170,f_auto,q_auto:eco/v1488537513/rzhggw8rkocvuveosaas.jpg" />
+      </div>
+    </div>
+    
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyCsiAYBYa0EyqNZadx3OXXorQbTQvIDrQI&callback=initMap">
+    </script>
+    
+<script src="/__/firebase/7.6.2/firebase-app.js"></script>
+
+<script src="/__/firebase/7.6.2/firebase-analytics.js"></script>
+
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>

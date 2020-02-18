@@ -1,0 +1,103 @@
+html, body{
+    font-family: Fira Sans, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    position: absolute;
+    display: block;
+    width: 400px;
+    float: left;
+    font-family: Fira Sans, sans-serif;
+    box-shadow:5px 3px 10px rgba(150,0,0,0.3);
+}
+input {
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    box-shadow:2px 2px 4px #000000;
+}
+h1 {
+    color: #fff;
+    font-size: 24px;
+    font-family: Fira Sans, sans-serif;
+    margin: 2 5px 10px 0;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+p {
+    color: #fff;
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    padding: 3px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+#hide-listings, #show-listings {
+    width: 48%;
+}
+hr {
+    background: #E48383;
+    height: 2px;
+    margin: 20px 0 20px 0;
+    border: none;
+    color: #fff;
+    text-shadow: 0 0 20px black;
+}
+#map {
+    width: 80%;
+    height: 100%;
+    left: 400px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+}
+.options-box {
+    background-image: linear-gradient(to left top, #fd1b14, #e01611, #c4110e, #a80c0b, #8d0808, #8d0808, #8d0808, #8d0808, #a80c0b, #c4110e, #e01611, #fd1b14);
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 100%;
+    line-height: 10px;
+    padding: 10px 10px 20px 10px;
+    text-align: left;
+    color: #fff;
+    box-shadow: 0 20px 50px black;
+}
+#pano {
+    width: 200px;
+    height: 200px;
+}
+#places-search, #search-within-time-text {
+    width: 70%;
+}
+.text {
+    font-size: 14px;
+    text-shadow: 0 0 20px black;
+    padding: 2px;
+    font-display: block;
+    line-height: 1.6;
+}
+#toggle-drawing {
+    width: 27%;
+    position: relative;
+    margin-left: 10px;
+}
+#zoom-to-area-text {
+    width: 40%;
+  font-family: Fira Sans, sans-serif;
+}
+#zoom-to-area {
+    width: 24%;
+  padding-left: 5px;
+}
+
+#img {
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   display: flex;
+   margin-left: 30px;
+}
